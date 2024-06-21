@@ -11,3 +11,159 @@ FONT SIZE SYSTEM (px)
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+  /* font-size: 7px; */
+}
+
+.navbar {
+  background-color: #6f6af7;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 5.2rem;
+  font-family: "Delius Unicase";
+  font-weight: 700;
+  color: #fff;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 2.4rem;
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+.search-box {
+  background-color: #e9f2ff;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  width: 30rem;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  flex: 1;
+  font-size: 1.6rem;
+}
+
+.search-icon {
+  font-size: 1.4rem;
+  color: #777;
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 40px;
+}
+
+.banner-box {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  padding-top: 10rem;
+  gap: 5rem;
+}
+
+.banner {
+  width: 350px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.banner-text-box {
+  background-color: #e5d8ff;
+  flex: 1;
+  border-radius: 20px;
+  padding: 20px;
+  outline: none;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.stats-section {
+  max-width: 1300px;
+  margin: 5rem auto;
+  display: flex;
+  gap: 5rem;
+}
+
+.stats-box {
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  width: 25%;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+  padding: 16px 24px;
+  border-radius: 10px;
+}
+
+.stat-title {
+  margin-bottom: 1rem;
+}
+
+.stat1 {
+  background-color: #929dff;
+}
+
+.stat2 {
+  background-color: #734cf2;
+}
+
+.stat3 {
+  background-color: #d288ff;
+}
+
+.stat4 {
+  background-color: #000;
+}
+
+.help-section {
+  border: none;
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: fixed;
+  bottom: 2rem;
+  right: 11rem;
+}
+
+.help-img {
+  width: 60px;
+}
+
+.info-section {
+  max-width: 1300px;
+  margin: 5rem auto;
+  width: 100%;
+  background-color: #483eff;
+}
